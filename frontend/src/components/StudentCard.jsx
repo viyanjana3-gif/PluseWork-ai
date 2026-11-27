@@ -1,8 +1,20 @@
 import React from 'react'
 
-const StudentCard = () => {
+function StudentCard(props) {
   return (
-    <div>StudentCard</div>
+    <div>
+      <h2 className="text-lg font-bold">
+        {
+          props.Name
+        }
+      </h2>
+      <p className="mt-2 text-3xl text-purple-600">
+        {
+          props.RollNo
+        }
+      </p>
+        
+    </div>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Footer = () => {
+function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="bg-slate-900 text-white text-center p-4 w-full shadow-inner">
+      <p className="text-sm font-medium">
+        Student Management System © 2026
+      </p>
+    </footer>
   )
 }
 
